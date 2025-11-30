@@ -1,3 +1,14 @@
+:root{
+  --bg: #f4f7fb;
+  --box-bg: white;
+  --accent: #2563eb;        /* normal accent */
+  --accent-2: #1e40af;      /* hover/focus accent */
+  --text: #0f172a;
+  --muted: #6b7280;
+  --gap: 12px;
+  --radius: 10px;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -101,4 +112,47 @@ main {
 
 .news li {
   margin-bottom: 10px;
+}
+
+.project{
+  margin-top: 25px;
+}
+
+.project{
+  margin-top: 50px;
+}
+
+.link-row{
+  display:flex;
+  gap: var(--gap);
+  align-items:stretch;
+  flex-wrap: wrap; /* wraps to next line on narrow screens */
+  max-width: 980px;
+  width:100%;
+}
+
+.link-box{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;        /* control box size */
+  padding: 14px 20px;
+  background: var(--box-bg);
+  color: var(--text);
+  text-decoration: none;
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+  border: 1px solid rgba(15,23,42,0.04);
+  transition: transform .16s ease, box-shadow .16s ease, background-color .16s ease, color .16s ease;
+  font-weight: 600;
+  letter-spacing: .2px;
+  text-align:center;
+}
+
+.link-box:hover,
+.link-box:focus,
+.link-box:focus-visible {
+  border-color: #62b4ff;   /* only border changes */
+  background: var(--box-bg);
+  color: var(--text);
 }

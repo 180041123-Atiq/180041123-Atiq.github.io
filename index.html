@@ -12,7 +12,7 @@
       <h1>Md. Atiqur Rahman</h1>
       <ul>
         <li><a href="#research">Research</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#cv">CV</a></li>
       </ul>
     </nav>
@@ -20,54 +20,285 @@
 
   <main>
     <section class="profile">
-      <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+      <img src="assets/portfolio.jpeg" alt="Profile Photo" class="profile-pic">
       <h2>Md. Atiqur Rahman</h2>
-      <p class="subtitle">Lecturer</p>
-      <p class="subtitle">Computer Science and Engineering</p>
-      <p class="subtitle"><a href="https://www.iutoic-dhaka.edu/">Islamic University of Technology</a></p>
+      <p class="subtitle">Coding simplifies life</p>
 
       <div class="contact">
         <p><a href="atiqurrahman23@iut-dhaka.edu">Email</a></p>
-        <p><a href="#">Google Scholar</a></p>
-        <p><a href="#">ORCID</a></p>
-        <p><a href="#">Github</a></p>
-        <p><a href="#">LinkedIn</a></p>
+        <p><a href="https://scholar.google.com/citations?user=mw_4Rh4AAAAJ&hl=en&authuser=1">Google Scholar</a></p>
+        <!-- <p><a href="#">ORCID</a></p> -->
+        <p><a href="https://github.com/180041123-Atiq">Github</a></p>
+        <!-- <p><a href="#">LinkedIn</a></p> -->
       </div>
     </section>
 
     <div class="rightColumn">
         <section class="bio">
             <p>
-                Hi, I’m Atiq. I am a dedicated researcher in the field of Artificial Intelligence, 
-                with a focus on developing AI systems that can simplify and enhance human life. 
-                I am currently pursuing my Master’s degree with a specialization in Self-Supervised Learning. 
+                Hi, I’m Atiq. I am currently a Lecturer in CSE at <a href="https://www.iutoic-dhaka.edu/">IUT</a>. 
+                Alongside teaching, I am passionate about research, particularly 
+                in developing efficient machine learning systems that can learn 
+                from both visual and linguistic data, adapt more like humans, 
+                and remain reliable under challenging environments. 
+                I am also pursuing my Master’s degree with a specialization 
+                in Multimodal Learning and Reinforcement Learning. 
             </p>
             <p>
-                My research interests broadly include:
+                My past work and research interests span a range of topics, including:
             </p>
             <ul>
-                <li>Few-Shot Learning</li>
-                <li>Applications of LLMs</li>
+                <li>Few Shot Learning</li>
                 <li>Medical Image Analysis</li>
-                <li>Personalized Federated Learning</li>
+                <li>Federated Learning</li> 
+                <li>LLM-driven NLP</li>
+                <li>Bioactivity Prediction</li>
                 <li>Spiking Neural Networks</li>
             </ul>
         </section>
 
         <section class="news">
-            <h3>News and Updates</h3>
+            <h2>News and Updates</h2>
             <ul>
-                <li><strong>Jul 25:</strong> Attended <a href="https://www.clnlp.org/">CLNLP 2025</a> and received the Best Paper Award. </li>
+              <li><strong>Jul 25:</strong> Attended <a href="https://www.clnlp.org/">CLNLP 2025</a> and received the Best Paper Award. </li>
             </ul>
         </section>
 
-        <section class="research">
-          <h3>Research</h3>
-          <div class="project">
-            <h3></h3>
-            <p>This is a brief description of the project or achievement. You can include links or highlights here.</p>
-            <a href="#">Learn More</a>
+        <section id="research" class="research">
+          <h2>Research</h2>
+          <div class="first-project">
+            <h3>
+              LLM-Based Evaluation of Low-Resource Machine Translation: 
+              A Reference-less Dialect Guided Approach with
+              a Refined Sylheti-English Benchmark
+            </h3>
+            <h4>
+              Md Atiqur Rahman, Sabrina Islam, and Mushfiqul Haque Omi
+            </h4>
+            <h5>CLNLP 2025</h5>
+            <div class="link-row">
+              <a class="link-box" href="https://arxiv.org/abs/2505.12273">
+                Paper
+              </a>
+              <a class="link-box" href="https://github.com/180041123-Atiq/MTEonLowResourceLanguage">
+                Code
+              </a>
+              <a class="link-box" href="https://huggingface.co/datasets/bokatiq/referenceless_machine_translation_evaluation">
+                Dataset
+              </a>
+            </div>
+            <p>
+              This work aims to equip LLMs with sufficient information 
+              to improve MTE in low-resource and linguistically diverse settings.
+            </p>
           </div>
+          <div class="project">
+            <h3>
+              Bdsl-spoter: A transformer-based framework for bengali sign language 
+              recognition with cultural adaptation
+            </h3>
+            <h4>
+              Sayad Ibna Azad and Md. Atiqur Rahman
+            </h4>
+            <h5>ISVC 2025</h5>
+            <div class="link-row">
+              <a class="link-box" href="https://arxiv.org/abs/2511.12103">
+                Paper
+              </a>
+              <a class="link-box" href="https://github.com/sayad-dot/BDSLW_SPOTER">
+                Code
+              </a>
+              <a class="link-box" href="https://www.kaggle.com/datasets/hasaniut/bdslw60">
+                Dataset
+              </a>
+            </div>
+            <p>
+              In this work, we focus on bridging the gap between 
+              Bangla and Western Sign Language Recognition tasks 
+              through the use of an efficient pose-based transformer architecture.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              Personalized Federated Segmentation with Shared Feature Aggregation 
+              and Boundary-Focused Calibration
+            </h3>
+            <h4>
+              *Ishmam Tashdeed, *Md. Atiqur Rahman, Sabrina Islam and Md. Azam Hossain
+            </h4>
+            <h5>Under Review</h5>
+            <div class="link-row">
+              <a class="link-box" href="https://arxiv.org/abs/2511.18847">
+                Paper
+              </a>
+              <a class="link-box" href="https://github.com/ishmamt/Federated-Tumor-Segmentation">
+                Code
+              </a>
+              <!-- <a class="link-box" href="https://www.kaggle.com/datasets/hasaniut/bdslw60">
+                Dataset
+              </a> -->
+            </div>
+            <p>
+              In this study, we try to solve the problem of 
+              data scarcity due to privacy constraint exploiting 
+              PFL and cross-organ knowledge.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              FUSED-Net: Detecting Traffic Signs with Limited Data
+            </h3>
+            <h4>
+              Md. Atiqur Rahman, Nahian Ibn Asad, Md. Mushfiqul Haque Omi, 
+              Md. Bakhtiar Hasan, Sabbir Ahmed and Md. Hasanul Kabir
+            </h4>
+            <h5>Under Review</h5>
+            <div class="link-row">
+              <a class="link-box" href="https://arxiv.org/abs/2409.14852">
+                Paper
+              </a>
+              <a class="link-box" href="https://github.com/180041123-Atiq/FUSED-Net">
+                Code
+              </a>
+              <a class="link-box" href="https://drive.google.com/uc?export=download&id=1FRDs9V8SXFZRhyqUmMZpTiSTyLXBiCw0">
+                Dataset
+              </a>
+            </div>
+            <p>
+              This work proposes an algorithm that can detect traffic Signs
+              under challenging conditions utilizing FSL.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              Cardosum: Patient friendly echocardiography report summarization
+            </h3>
+            <h4>
+              Sabrina Islam, Md Atiqur Rahman, Dr. Mohammad Arifur Rahman, 
+              Dr. Shahimur Parvez, and Md. Hasanul Kabir
+            </h4>
+            <h5>Preprint</h5>
+            <div class="link-row">
+              <a class="link-box" href="https://arxiv.org/abs/2409.14852">
+                Paper
+              </a>
+              <a class="link-box" href="https://github.com/180041123-Atiq/FUSED-Net">
+                Code
+              </a>
+              <a class="link-box" href="https://drive.google.com/uc?export=download&id=1FRDs9V8SXFZRhyqUmMZpTiSTyLXBiCw0">
+                Dataset
+              </a>
+            </div>
+            <p>
+              Here we try to build reliable public LLMs that can generate 
+              patient friendly summarization of a echocardiography report.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              Rep3net: An approach exploiting multimodal representation 
+              for molecular bioactivity prediction
+            </h3>
+            <h4>
+              Sabrina Islam, Md Atiqur Rahman, Md. Bakhtiar Hasan, and Md. Hasanul Kabir
+            </h4>
+            <h5>Preprint</h5>
+            <div class="link-row">
+              <a class="link-box" href="https://arxiv.org/abs/2409.14852">
+                Paper
+              </a>
+              <a class="link-box" href="https://github.com/180041123-Atiq/FUSED-Net">
+                Code
+              </a>
+              <a class="link-box" href="https://drive.google.com/uc?export=download&id=1FRDs9V8SXFZRhyqUmMZpTiSTyLXBiCw0">
+                Dataset
+              </a>
+            </div>
+            <p>
+              In this work, we try to build robust bioactivity predictor using three 
+              distinct yet complementary representations.
+            </p>
+          </div>
+        </section>
+        <section id="projects" class="projects">
+          <h2>Projects</h2>
+          <div class="first-project">
+            <h3>
+              SpikeX
+            </h3>
+            <!-- <h4>
+              Md. Atiqur Rahman, Nahian Ibn Asad, Md. Mushfiqul Haque Omi, 
+              Md. Bakhtiar Hasan, Sabbir Ahmed and Md. Hasanul Kabir
+            </h4>
+            <h5>Under Review</h5> -->
+            <div class="link-row">
+              <!-- <a class="link-box" href="https://arxiv.org/abs/2409.14852">
+                Paper
+              </a> -->
+              <a class="link-box" href="https://github.com/180041123-Atiq/SpikeX">
+                Code
+              </a>
+              <!-- <a class="link-box" href="https://drive.google.com/uc?export=download&id=1FRDs9V8SXFZRhyqUmMZpTiSTyLXBiCw0">
+                Dataset
+              </a> -->
+            </div>
+            <p>
+              Using Spiking Neural Networks to develop an energy-efficient YOLOv4.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              Few Shot Traffic Sign Classification
+            </h3>
+            <!-- <h4>
+              Md. Atiqur Rahman, Nahian Ibn Asad, Md. Mushfiqul Haque Omi, 
+              Md. Bakhtiar Hasan, Sabbir Ahmed and Md. Hasanul Kabir
+            </h4>
+            <h5>Under Review</h5> -->
+            <div class="link-row">
+              <!-- <a class="link-box" href="https://arxiv.org/abs/2409.14852">
+                Paper
+              </a> -->
+              <a class="link-box" href="https://github.com/180041123-Atiq/SpikeX">
+                Code
+              </a>
+              <!-- <a class="link-box" href="https://drive.google.com/uc?export=download&id=1FRDs9V8SXFZRhyqUmMZpTiSTyLXBiCw0">
+                Dataset
+              </a> -->
+            </div>
+            <p>
+              Utilizing metric based few shot classifiers for bench-marking GTSRB.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              Save The Assassin
+            </h3>
+            <!-- <h4>
+              Md. Atiqur Rahman, Nahian Ibn Asad, Md. Mushfiqul Haque Omi, 
+              Md. Bakhtiar Hasan, Sabbir Ahmed and Md. Hasanul Kabir
+            </h4>
+            <h5>Under Review</h5> -->
+            <div class="link-row">
+              <!-- <a class="link-box" href="https://arxiv.org/abs/2409.14852">
+                Paper
+              </a> -->
+              <a class="link-box" href="https://github.com/180041123-Atiq/Save-The-Assassin">
+                Code
+              </a>
+              <a class="link-box" href="https://atiqur-rahman.itch.io/save-the-assassin">
+                Game
+              </a>
+            </div>
+            <p>
+              Designed and built dynamic 2D game from scratch using 
+              C# and Unity Game Engine. 
+            </p>
+          </div>
+        </section>
+        <section id="cv" class="cv">
+          <h2>CV</h2>
+          <div><p>Download CV</p></div>
         </section>
     </div>
     
